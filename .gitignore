@@ -1,0 +1,27 @@
+# Binários
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+gerenciador-numeros-go
+
+# Testes
+*.test
+*.out
+coverage.*
+
+# Dependências / workspace
+vendor/
+go.work
+go.work.sum
+
+# Saída da funcionalidade de exportação
+numeros.txt
+
+# Editores / SO
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
